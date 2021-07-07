@@ -55,10 +55,3 @@ trainloader, testloader = getCifar10DataLoader()
 
 classes = ('plane', 'car', 'bird', 'cat',
            'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
-
-#model = ResNet18().to(device)
-epochs = 40
-lr = 0.01
-# optimizer = optim.Adam(model.parameters(), lr=lr)
-# scheduler = ReduceLROnPlateau(optimizer, mode='min', patience=3, verbose=True)
-# criterion = nn.CrossEntropyLoss()
